@@ -1,1 +1,96 @@
+# M&A Deal Optimization System  
+### Constraint-Based Multi-Objective Decision Framework
 
+---
+
+## Overview
+
+This project presents a structured system for optimizing Mergers & Acquisitions (M&A) deal configurations.  
+
+Instead of evaluating a few manually selected scenarios, the system systematically generates multiple deal structures and identifies optimal trade-offs between return and risk.
+
+The approach combines financial modeling, optimization techniques, and AI-based interpretation to support better decision-making.
+
+---
+
+## Problem Statement
+
+Traditional M&A analysis relies on limited scenario evaluation and often focuses only on metrics like EPS accretion/dilution.  
+
+This leads to:
+- Incomplete exploration of possible deal structures  
+- Lack of risk-return trade-off analysis  
+- Dependence on manual judgment  
+
+---
+
+## Solution
+
+The system models M&A deal structuring as an optimization problem.
+
+It:
+- Generates multiple deal configurations using grid search  
+- Evaluates each scenario using a financial model  
+- Applies constraint validation  
+- Performs sensitivity analysis  
+- Uses Pareto optimization to identify optimal solutions  
+- Provides AI-generated insights for decision support  
+
+---
+
+## System Workflow
+
+1. Input financial parameters (EPS, deal value, synergy)  
+2. Generate multiple scenarios (cash-stock variations)  
+3. Compute post-deal EPS  
+4. Filter infeasible scenarios  
+5. Evaluate sensitivity (risk)  
+6. Apply Pareto optimization  
+7. Generate AI-based insights  
+8. Present results via interactive dashboard  
+
+---
+
+## Features
+
+- Pareto Frontier Visualization (Risk vs Return)  
+- Scenario Generation using Grid Search  
+- EPS and Sensitivity-based Evaluation  
+- Constraint-based Filtering  
+- AI-powered Strategic Insights  
+- Interactive Dashboard Interface  
+
+---
+
+## Tech Stack
+
+- **Frontend:** React (JavaScript)  
+- **Visualization:** Recharts  
+- **Backend Logic:** JavaScript / Python concepts  
+- **AI Integration:** Claude API (Anthropic)  
+- **Development Support:** ChatGPT + Claude  
+
+---
+
+## Output Interface
+
+The system provides:
+
+- Risk vs Return scatter plot (Pareto frontier)  
+- Optimal deal configurations  
+- Categorized strategies:
+  - Maximum Return  
+  - Balanced Trade-off  
+  - Maximum Stability  
+- AI-generated insights for each scenario  
+
+---
+
+## Key Concepts Used
+
+- Accretion / Dilution Analysis  
+- Sensitivity Analysis  
+- Grid Search Optimization  
+- Pareto Efficiency (Multi-objective optimization)  
+
+---
